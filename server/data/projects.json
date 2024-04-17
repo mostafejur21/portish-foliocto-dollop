@@ -1,9 +1,10 @@
 [
     {
         "id": 1,
+        "github": "https://github.com/mostafejur21/ecommerce",
         "name": "E-commerce Website",
         "description": "A fully functional e-commerce platform built using MERN stack (MongoDB, Express.js, React.js, Node.js). Users can browse products, add them to cart, and complete the purchase securely.",
-        "technology": "MERN stack",
+        "technology": "Flutter",
         "image": "https://mockframe.com/images/blog/best-mockup-software.png",
         "key_points": [
             "Integrated payment gateway for secure transactions",
@@ -13,6 +14,7 @@
     },
     {
         "id": 2,
+        "github": "https://github.com/mostafejur21",
         "name": "Inventory Management System",
         "description": "A comprehensive inventory management system developed in Java using Spring Boot framework. It allows users to track stock levels, manage suppliers, and generate reports.",
         "technology": "Java, Spring Boot",
@@ -25,6 +27,7 @@
     },
     {
         "id": 3,
+        "github": "https://github.com/mostafejur21",
         "name": "Mobile Health App",
         "description": "A mobile application designed to help users track their fitness goals and monitor their health metrics. Developed using Flutter framework for cross-platform compatibility.",
         "technology": "Flutter",

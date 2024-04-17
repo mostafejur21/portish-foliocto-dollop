@@ -10,19 +10,19 @@ document.addEventListener("DOMContentLoaded", function () {
         const card = document.createElement("div");
         card.classList.add("project-card", "col");
         card.innerHTML = `
-                    <img src="${project.image}" alt="${
-          project.name
-        }" class="project-image">
-                    <div class="project-details">
-                        <h3 class="project-name">${project.name}</h3>
-                        <p class="project-description">${project.description.slice(
-                          0,
-                          50
-                        )}...</p>
-                        <p class="project-technology">Technology: ${
-                          project.technology
-                        }</p>
-                    </div>
+                  <a href=${project.github} terget="_blank"> <img src="${project.image}" alt="${
+                    project.name
+                  }" class="project-image">
+                              <div class="project-details">
+                                  <h3 class="project-name">${project.name}</h3>
+                                  <p class="project-description">${project.description.slice(
+                                    0,
+                                    50
+                                  )}...</p>
+                                  <p class="project-technology">Technology: ${
+                                    project.technology
+                                  }</p>
+                              </div></a> 
                 `;
         projectsContainer.appendChild(card);
       });
